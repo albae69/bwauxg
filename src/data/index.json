@@ -1,0 +1,57 @@
+{
+  "data": {
+    "card": [
+      {
+        "id": 1,
+        "title": "Redesign Pixel Website",
+        "deadline": "until 20 January",
+        "bgColor": "#5848FD",
+        "isDiscount": true,
+        "discount": "50%"
+      },
+      {
+        "id": 2,
+        "title": "Mobile Apps Design",
+        "deadline": "until 10 February",
+        "bgColor": "#FB77C4",
+        "isDiscount": false,
+        "discount": "0% OFF"
+      }
+    ],
+    "myteam": [
+      {
+        "id": 1,
+        "title": "Pixel Studio",
+        "description": "You have 5 members",
+        "img": "../assets/images/Profile_1.png",
+        "img2": "../assets/images/profile2"
+      },
+      {
+        "id": 2,
+        "title": "Samsan Tech",
+        "description": "You have 4 members",
+        "img": "../assets/images/profile3.png",
+        "img2": "../assets/images/profile4",
+        "bgColor": "#FBBD39"
+      }
+    ],
+    "projectdetail": [
+      {
+        "id": 1,
+        "label": "Label",
+        "value": "UI Interface"
+      },
+      {
+        "id": 2,
+        "label": "Assign",
+        "value": "Mary Carter",
+        "isImage": true
+      },
+      {
+        "id": 3,
+        "label": "Deadline",
+        "value": "Saturday, 06 February"
+      }
+    ]
+  }
+}
