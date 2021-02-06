@@ -1,13 +1,17 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React, {useState, useEffect} from 'react';
 import {Dashboard, Splash} from './src/screens/';
 
 const App = () => {
-  return (
-    <>
-      <Dashboard />
-    </>
-  );
+  const [load, setLoad] = useState(false);
+
+  useEffect(() => {
+    setLoad(true);
+    setTimeout(() => {
+      setLoad(false);
+    }, 1000);
+  }, []);
+
+  return <>{load ? <Splash /> : <Dashboard />}</>;
 };
 
 export default App;
